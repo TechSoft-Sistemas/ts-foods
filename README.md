@@ -17,6 +17,8 @@ API versão antiga *1.0.9* para usar com aplicativo *TechSoft Food*
 
 - Instalação simplificada com adição do programa ao contexto do Windows
 - Configuração automática
+  - IP dinâmico
+  - Integração com *TSWaiter*
 - Menor consumo de recursos
   - Quantidade menor de consultas no banco de dados
   - Menor quantidade de conexão abertas
@@ -32,7 +34,8 @@ API versão antiga *1.0.9* para usar com aplicativo *TechSoft Food*
 
 O programa instalado de maneira padrão sempre irá inicializar juntamente com o *Windows*,
 e irá utilizar o arquivo de configuração padrão do sistema para se conectar ao banco de dados
-sem a necessidade de configurações adicionais.
+sem a necessidade de configurações adicionais. Assim como criar a configuração inicial do
+*TSWaiter* e inicializar automaticament com
 
 O programa também irá controlar e verificar a própria regra de firewall a modo de garantir que
 pode ser acessado mesmo de fora do computador.
@@ -45,3 +48,8 @@ e o *config.ini*
 > [!IMPORTANT]
 > O instalador não permitirá instalação do programa o sistema techsoft já não estiver préviamente
 > instalado e ocnfigurado, sendo necessário que o arquivo *config.ini* exista na pasta onde está instalado
+
+
+### Atualizações
+
+[Log de Atualizações](CHANGELOG.md)
